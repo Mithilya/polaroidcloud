@@ -1,16 +1,16 @@
 body {
     font-family: Helvetica, sans-serif;
     color: #EAE8FF;
-    background: #2D3142;
+    background: #E9E9E9;
     padding: 0 40px;
     text-align: center;
 }
 
 nav {
     margin: 40px auto 0 auto;
-    width: 250px;
+    width: 300px;
     border-radius: 50px;
-    background: #212431;
+    background: #E9E9E9;
 }
 
 nav ul {
@@ -28,7 +28,7 @@ nav ul li {
 nav ul li a {
     display: inline-block;
     padding: 20px;
-    color: #EAE8FF;
+    color:#404040;
     text-decoration: none;
     font-size: 1.2em;
 }
@@ -48,3 +48,88 @@ h1 strong {
 img.about {
     opacity: 0.5;
 }
+
+:root {
+  --dark:#404040; 
+}
+
+  
+  h1{
+    color: var(--dark);
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    src: url('https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap') format('woff2');
+  }
+  
+  h2{
+    
+    color: var(--dark);
+    font-size: 17px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    src: url('https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap') format('woff2');
+  }
+
+  h3{
+    color: var(--dark);
+    font-size: 48px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    src: url('https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap') format('woff2');
+  }
+
+  h4{
+    color: var(--dark);
+    text-align: left;
+    padding-left: 215px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    src: url('https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap') format('woff2');
+    
+  }
+  
+  h5{
+    color: var(--dark);
+    text-align: left;
+    font-size: 25px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    src: url('https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap') format('woff2');
+  }
+
+  .wifi{
+    width: 30px; 
+    height: 30px; 
+  }
+
+  .qrcode{
+    width: 30px; 
+    height: 30px; 
+  }
+
+  .cloud{
+    width: 30px; 
+    height: 30px; 
+  }
+
+  .share{
+    width: 30px; 
+    height: 30px; 
+  }
+
+  .polaroidpic{
+    width: 700px; 
+    height: 700px; 
+    margin-top: -200px;
+  }
+
+ .keepintouch{
+  max-width: 40%;
+  height: auto;
+ }
+
